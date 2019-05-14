@@ -1,3 +1,37 @@
 123
 888
 hdhh
+Updating 95414c7..646eaa4
+Fast-forward
+ test.txt | 1 +
+ 1 file changed, 1 insertion(+)
+PS C:\Users\Administrator\Desktop\first> git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+PS C:\Users\Administrator\Desktop\first> git commit -m "77"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   test.txt
+
+no changes added to commit
+PS C:\Users\Administrator\Desktop\first> git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+PS C:\Users\Administrator\Desktop\first> git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+PS C:\Users\Administrator\Desktop\first> git add .
+PS C:\Users\Administrator\Desktop\first> git commit -m "new"
+[master e8a4eb7] new
+ 1 file changed, 2 insertions(+)
+PS C:\Users\Administrator\Desktop\first> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 245 bytes | 122.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/dzy521521/first.git
+   646eaa4..e8a4eb7  master -> master
+PS C:\Users\Administrator\Desktop\first>
+
